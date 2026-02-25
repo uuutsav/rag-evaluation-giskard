@@ -1,0 +1,15 @@
+# --- Core Data & Eval ---
+pydantic>=2.7.0
+pandas>=2.0.0
+giskard[llm]>=2.14.0
+litellm>=1.40.0
+
+# --- LangChain Ecosystem (v0.3.x is Pydantic v2 native) ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-google-genai>=2.0.0
+
+# --- Vector Store ---
+docarray>=0.40.0
